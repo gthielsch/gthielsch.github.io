@@ -1,0 +1,142 @@
+{
+    "cardinalSymptoms": [
+        {
+            "symptom": "lowBackPain",
+            "differentialDiagnoses": [
+                {
+                    "name": "Cauda equina syndrome",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Urinary retention",
+                            "result": true
+                        },
+                        {
+                            "name": "Urinary/fecal incontinence",
+                            "result": true
+                        },
+                        {
+                            "name": "Saddle anethesi",
+                            "result": true
+                        },
+                        {
+                            "name": "Sexual dysfunction",
+                            "result": true
+                        }
+                    ],
+                    "result": false
+                },
+                {
+                    "name": "Spinal infection",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Fever",
+                            "result": true
+                        },
+                        {
+                            "name": "Ague",
+                            "result": true
+                        },
+                        {
+                            "name": "Bacterial infection at any location",
+                            "result": true
+                        }
+                    ],
+                    "result": false
+                },
+                {
+                    "name": "Metastatic disease",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Strong night pain",
+                            "result": true
+                        },
+                        {
+                            "name": "Unintentioned weight loss",
+                            "result": true
+                        },
+                        {
+                            "name": "Positive cancer history",
+                            "result": true
+                        },
+                        {
+                            "name": "Age > 70 years",
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                },
+                {
+                    "name": "Vertebral fracture",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Accident (also minimal)",
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                },
+                {
+                    "name": "Radicular pain, spinal stenosis, or axial spondyloarthritis",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Reduced force",
+                            "result": true
+                        },
+                        {
+                            "name": "Paresthesia",
+                            "result": true
+                        },
+                        {
+                            "name": "Susipicous radiography",
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "fallbackDiagnosis": "It is probably nonspecific low back pain. Reassure the patient and discuss further procedure."
+        },
+        {
+            "symptom": "some other cardinal symptom",
+            "differentialDiagnosis": [
+                {
+                    "name": "diagnosis 1",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Info 1",
+                            "result": true
+                        },
+                        {
+                            "name": "Info 2",
+                            "result": true
+                        },
+                        {
+                            "name": "Info 3",
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                },
+                {
+                    "name": "diagnosis 2",
+                    "diagnosticInfo": [
+                        {
+                            "name": "Info 1",
+                            "result": true
+                        },
+                        {
+                            "name": "Info 2",
+                            "result": true
+                        },
+                        {
+                            "name": "Info 3",
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "fallbackDiagnosis": "all differential diagnoses have been ruled out. it must be something else."
+        }
+    ]
+}
